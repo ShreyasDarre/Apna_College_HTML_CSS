@@ -1,0 +1,28 @@
+body {
+  /* background-image: url(Xd.gif); */
+  background-image: url(backgrnd.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* Added a background Image */
+  color: white;
+  /* font: italic 1.2rem "Fira Sans", serif; */
+  /* font: Tahoma; */
+  font: Verdana;
+  font-style: italic;
+}
+
+.myid{
+  border:2px solid #DAC4F7;
+  background-color: #323131;
+}
+
+h1,
+h3{
+  background-color: #323131;
+  background-blend-mode: difference;
+  font: caption;
+  padding: 10px;
+  margin-bottom: 0;
+}

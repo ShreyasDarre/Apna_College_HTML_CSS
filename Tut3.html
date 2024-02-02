@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        text-align: center;
+        background-image: url(backgrnd.jpg);
+        background-size: cover;
+        font-size: 26px;
+        text-shadow: 1px 1px rgb(0, 0, 0);
+        font-family: "Times New Roman", Times, serif;
+        color: aliceblue;
+        /* font: caption; */
+      }
+
+      .new {
+        margin: 0 auto;
+      }
+
+      .Anime {
+        background-color: green;
+      }
+      .yt {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="yt">
+      <h2>Welcome to my website..</h2>
+      <a href="https://www.google.com/" target="_main"
+        ><br />Home<br /><img src="logo.png" height="100"
+      /></a>
+      <!-- <p style="border: 1px solid white"> So this is a para
+  And a new one.</p>
+  <div style="border: 1px solid whitesmoke;">This is a div,
+  and a second one.</div>
+  <p>
+    The chemical formulae of water is H<sub>2</sub>O.
+    <br>
+    The equation of slope of line is y = mx<sup>2</sup>+c.
+    <br>
+    This is an example of <big>Big text</big>
+    <br>
+    This is an example of <small>Small text</small>
+  </p> -->
+
+      <!-- This is to show how to embed videos into a website
+  1.Go to the yt video and click share.
+  2.Click the embed option and copy the HTML code
+  3.paste the code onto the html file using the <iframe></iframe> option.
+  -->
+      <h2>
+        This is the video I have referred, APNA COLLEGE is the best.<br /><br />
+      </h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/HcOc7P5BMi4?si=M0ioCETEmSwLAawn"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+
+      <!-- Can also display pages there using <iframe>src = "link"</iframe>-->
+      <h2>
+        <br />
+        This is the WIKI Site I have referred it's the best...<br /><br />
+      </h2>
+      <iframe
+        src="https://www.wikipedia.org/"
+        width="1000"
+        height="500"
+      ></iframe>
+      <!-- <form>
+    Form Content.
+  </form> -->
+    </div>
+    <!-- Action in Form -->
+    <h2>Enter Username and Password</h2>
+    <br />
+    <div>
+      <!-- method get- reveals the information while the method post- hides the given data -->
+      <form action="action.php" method="get">
+        <input type="text" placeholder="Username" />
+        <br />
+        <input type="password" placeholder="Password" />
+        <br />
+        <input type="button" value="Submit" />
+      </form>
+    </div>
+
+    <form>
+      <h2>Enter your class</h2>
+      <br />
+      <label for="101">
+        <input type="radio" value="Class XI" name="Class" id="101" />Class XI<br />
+      </label>
+      <label for="102">
+        <input type="radio" value="Class XII" name="Class" id="102" />Class
+        XII<br />
+      </label>
+      <br />
+      <label for="105">
+        <input type="radio" value="Class XI" class="Clas" id="105" />Class A<br />
+      </label>
+      <label for="106">
+        <input type="radio" value="Class XII" class="Clas" id="106" />Class B<br />
+      </label>
+    </form>
+
+    <form>
+      <h2>Introducing Checkbox.</h2>
+      <input type="checkbox" value="Naruto" class="Anime" id="500" />
+      <label for="500" class="Anime">Naruto</label><br />
+      <input type="checkbox" value="Boruto" class="Anime" id="501" />
+      <label for="501" class="Anime">Boruto</label><br />
+    </form>
+    <br /><br />
+    <div class="new">
+      <textarea
+        name="Feedback"
+        placeholder="Please give your valueable feedback. Thank you.."
+        rows="3"
+        cols="50"
+      ></textarea>
+    </div>
+    <form action="action.php" method="get">
+      <h2>Select your City</h2>
+      <select name="city">
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Hubli">Hubli</option>
+      </select>
+      <input type="submit" value="Submit" />
+    </form>
+
+    <br />
+    <video src="myvideo.mp4" controls width="1000px" height="500px">
+      My_Video
+    </video>
+  </body>
+</html>

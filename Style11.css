@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.loader {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 20px solid #ffc857;
+  border-top: 20px solid #2e4052;
+  /* background-color: pink; */
+  text-align: center;
+
+  /* animation-name: spin;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0.2ms;
+  animation-iteration-count: infinite; */
+
+  animation: spin 3s linear 0.3s infinite normal;
+  /* animation: spin 3s ease-in-out 0.3s infinite normal; */
+  /* animation: spin 3s ease-in 0.3s infinite normal; */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #one {
+        background-color: blue;
+      }
+      .two {
+        color: red;
+      }
+      #three {
+        background-color: green;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="one">
+      <p>This is blue.</p>
+    </div>
+
+    <h1 class="two">Heading</h1>
+    <br />
+    <h2 class="two">Heading</h2>
+    <br />
+    <h3 class="two">Heading</h3>
+    <br />
+
+    <input type="button" value="Click me!" id="three" />
+
+    <form action="/action_page.php">
+      <h2>Enter name</h2>
+      <br />
+      <label for="101">Enter date before 18-02-2002</label>
+      <input
+        type="date"
+        id="101;"
+        name="firstname"
+        max="18-02-2002"
+      /><br /><br />
+      <label for="11">Enter date after 18-02-2000</label>
+      <input
+        type="date"
+        id="11;"
+        name="lastname"
+        max="18-02-2000"
+      /><br /><br />
+      <input type="color" id="251;" name="Color" /><br /><br />
+      <input type="number" id="251;" name="Numebr" step="5" /><br /><br />
+      <input type="button" onclick="alert('Hello fam')" value="Submit" />
+    </form>
+  </body>
+</html>

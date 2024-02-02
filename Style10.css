@@ -1,0 +1,58 @@
+.box {
+  background-color: aquamarine;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  /* transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 0.2s; */
+  animation-name: colorchange;
+  animation-duration: 0.2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@media (max-width: 300px) {
+  .box {
+    background-color: green;
+  }
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  .box {
+    background-color: pink;
+  }
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .box {
+    background-color: red;
+  }
+}
+@media (min-width: 600px) {
+  .box {
+    background-color: blue;
+  }
+}
+
+/* .box:hover {
+  background-color: burlywood;
+  color: white;
+  font-size: 28px;
+}
+.box:active {
+  background-color: yellow;
+  color: black;
+  font-size: 34px;
+} */
+
+@keyframes colorchange {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: palegreen;
+  }
+}

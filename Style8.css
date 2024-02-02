@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+}
+
+div {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  flex-direction: column;
+  /* flex-direction: column-reverse; */
+  justify-content: center;
+  border: 2px solid black;
+}
+
+#container {
+  height: 400px;
+  width: 800px;
+}
+
+#box1 {
+  background-color: aqua;
+}
+
+#box2 {
+  background-color: brown;
+}
+
+#box3 {
+  background-color: green;
+}
+
+#box4 {
+  background-color: yellow;
+}
+
+#box5 {
+  background-color: pink;
+}
